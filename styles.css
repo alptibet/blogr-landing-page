@@ -276,7 +276,10 @@ header a:active {
 }
 
 .section-3 {
-  margin-top: 17rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  margin-top: 8rem;
+  overflow: hidden;
 }
 
 .section-3 h3 {
@@ -297,9 +300,10 @@ header a:active {
 }
 
 .content3-image {
+  display: inline-block;
   position: absolute;
-  right: 52.5%;
-  top: -18.5rem;
+  left: -36%;
+  bottom: -18rem;
 }
 
 .content3-image-mob {
@@ -309,10 +313,12 @@ header a:active {
 .content3-text {
   width: 50%;
   margin-left: auto;
+  z-index: 4;
+  position: relative;
 }
 
 footer {
-  margin-top: 20rem;
+  margin-top: 10rem;
   background-color: hsl(240, 10%, 16%);
   color: white;
   font-size: 1.4rem;
